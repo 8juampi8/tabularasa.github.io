@@ -1,0 +1,28 @@
+header {
+  height: 70px;
+  color: rgba(0, 0, 0, 0);
+}
+header div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header div ul li {
+  padding-right: 50px;
+}
+header div ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+header div ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  padding-bottom: 5px;
+  color: rgb(35, 119, 90);
+}
+header div ul li a:hover {
+  color: rgb(90, 9, 41);
+  border-bottom: 2px solid rgb(90, 9, 41);
+}
+
+/*# sourceMappingURL=header.css.map */

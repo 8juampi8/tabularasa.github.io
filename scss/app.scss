@@ -1,2 +1,15 @@
 // Básicos
-@import './basicos/fuente.scss'
+@import './basicos/fuente.scss';
+
+// Disposiciones
+@import './disposiciones/header.scss';
+@import './disposiciones/footer.scss';
+
+// Páginas
+@import './paginas/index.scss';
+@import './paginas/fabrica.scss';
+@import './paginas/productos.scss';
+@import './paginas/servicios.scss';
+@import './paginas/taproom.scss';
+@import './paginas/patio.scss';
+@import './paginas/consultas.scss';

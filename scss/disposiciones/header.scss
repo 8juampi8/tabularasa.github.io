@@ -1,0 +1,28 @@
+header{
+    height: 70px;
+    color: rgba(0, 0, 0, 0);
+    div{
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            li{
+                padding-right: 50px;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all 0.5s ease;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 17px;
+                    padding-bottom: 5px;
+                    color: rgb(35, 119, 90);
+                    &:hover{
+                        color: rgb(90,9,41);
+                        border-bottom: 2px solid rgb(90,9,41);
+                    }
+                }
+            }
+        }
+    }
+}
