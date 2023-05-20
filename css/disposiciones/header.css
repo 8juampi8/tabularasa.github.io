@@ -1,28 +1,17 @@
-header {
-  height: 70px;
-  color: rgba(0, 0, 0, 0);
-}
-header div ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-header div ul li {
-  padding-right: 50px;
-}
-header div ul li:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease;
-}
-header div ul li a {
-  text-decoration: none;
-  font-size: 17px;
-  padding-bottom: 5px;
-  color: rgb(35, 119, 90);
-}
-header div ul li a:hover {
-  color: rgb(90, 9, 41);
-  border-bottom: 2px solid rgb(90, 9, 41);
-}
+/* Error: Undefined variable.
+ *    ,
+ * 24 |                     color: $color-1;
+ *    |                            ^^^^^^^^
+ *    '
+ *   scss\disposiciones\header.scss 24:28  root stylesheet */
 
-/*# sourceMappingURL=header.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 24 \2502                      color: $color-1;\d\a    \2502                             ^^^^^^^^\a    \2575 \a   scss\\disposiciones\\header.scss 24:28  root stylesheet";
+}

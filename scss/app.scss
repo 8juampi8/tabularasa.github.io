@@ -1,9 +1,13 @@
 // Básicos
 @import './basicos/fuente.scss';
+@import './basicos/colores.scss';
+@import './basicos/keyframes.scss';
+@import './basicos/botones.scss';
 
 // Disposiciones
 @import './disposiciones/header.scss';
 @import './disposiciones/footer.scss';
+@import './disposiciones/fondo.scss';
 
 // Páginas
 @import './paginas/index.scss';
